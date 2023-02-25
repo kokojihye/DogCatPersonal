@@ -26,4 +26,20 @@ public class User {
         this.userName = userName;
         this.userNickname = userNickname;
     }
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public String getUserPW() {
+        return userPW;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getUserNickname() {
+        return userNickname;
+    }
 }
